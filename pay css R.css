@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    
+}
+#oneword{
+    color: #ffb732;
+}
+
+nav{
+    background-image: linear-gradient(to right,#191919 30%,#666666);
+    height: 60px;
+    width: 100%;
+}
+.logo{
+    float: left;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 10px;
+    padding-left:20%;
+    overflow:hidden;
+    list-style-type: none;
+    
+}
+body{
+    background-image: url(https://images.pexels.com/photos/838696/pexels-photo-838696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+}
+nav ul li a{
+    text-decoration: none;
+   
+    color:#ffb732;
+    font-size: 30px;
+    
+   
+}
+
+section h1{
+    margin: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 50px;
+}
+input{
+    margin-left: 500px;
+    margin-top:-50px;
+    height: 40px;
+    border-radius: 50px;
+    size: 400px;
+    box-shadow: 10px -10px  #999;
+ }
+img{
+    padding-right: 5px;
+    cursor: pointer;
+}
+#first{
+    margin-left: 50px;
+}
+}
+ .input {
+   margin-left: 500px;
+   margin-top:-50px;
+   height: 40px;
+   border-radius: 50px;
+   size: 400px;
+   box-shadow: 10px -10px  #999;
+}
+.input1{
+    margin-left: 500px;
+   margin-top:-50px;
+   height: 40px;
+   border-radius: 50px;
+   size: 400px;
+   box-shadow: 10px -10px  #999;
+}
+.input11{
+    margin-left: 50px;
+    margin-top:-50px;
+    height: 40px;
+    border-radius: 50px;
+    size: 400px;
+    box-shadow: 10px -10px  #999;
+}
+.input2{
+    margin-left: 500px;
+   margin-top:-50px;
+   height: 40px;
+   border-radius: 50px;
+   size: 400px;
+   box-shadow: 10px -10px  #999;
+}
+
+
+.btn{
+    margin-left: 500px;
+    font-family:'Lobster', cursive;
+    cursor: pointer;
+    transition-property:color;
+    transition-duration: 1s;
+    font-size: 30px;
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#323232 20px,#7f7f7f);
+}
+#txtCaptcha{
+    display: inline;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: #ffb732;
+    background-image:url(https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.capbox {
+	margin-bottom: 500px;
+	
+	
+	border-width: 0px 12px 0px 0px;
+	display: inline-block;
+	*display: inline; zoom: 1; /* FOR IE7-8 */
+	padding: 8px 40px 8px 8px;
+    }
+.cap{
+    font-size: 30px;
+
+}
+
+.capbox-inner {
+
+	color: #000000;
+	
+	margin: 5px auto 0px auto;
+	padding: 3px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	}
+
+#CaptchaDiv {
+	font: bold 17px verdana, arial, sans-serif;
+	font-style: italic;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	}
+
+#CaptchaInput { margin: 1px 0px 1px 0px; width: 135px; }
